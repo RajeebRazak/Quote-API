@@ -1,0 +1,25 @@
+body, .quote, .auther {
+    display: flex;
+    justify-content: center;
+}
+
+.quoteContainer {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    padding: 50px;
+    width: 80%;
+    border: 1px solid grey;
+}
+
+.quote {
+    font-family: "Bradley Hand ITC";
+    text-align: center;
+    font-size: 20px;
+}
+
+.auther {
+    margin-top: 10px;
+    font-family: "Bradley Hand ITC";
+    font-size: 35px;
+}
