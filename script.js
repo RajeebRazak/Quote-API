@@ -1,4 +1,4 @@
-import { MY_API_KEY } from './config.js';
+const MY_API_KEY = '008959270emsh36d9e69819437edp106d4ajsn023665c1dabf' ;
 
 document.addEventListener('DOMContentLoaded', () => {
     const button = document.getElementById('button');

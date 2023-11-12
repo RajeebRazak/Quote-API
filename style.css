@@ -1,4 +1,4 @@
-body, .quote, .auther {
+body, #quote, #auther {
     display: flex;
     justify-content: center;
 }
@@ -12,13 +12,16 @@ body, .quote, .auther {
     border: 1px solid grey;
 }
 
-.quote {
+#quote {
     font-family: "Bradley Hand ITC";
     text-align: center;
-    font-size: 20px;
+    font-size: 25px;
+    margin-top: 25%;
+    color: black;
+    font-weight: bold;
 }
 
-.auther {
+#auther {
     margin-top: 10px;
     font-family: "Bradley Hand ITC";
     font-size: 35px;
